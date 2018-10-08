@@ -6,7 +6,6 @@ import moment from 'moment';
 
 export default class Article extends Component {
     render() {
-        console.log(this.props);
         const {
             title,
             description,

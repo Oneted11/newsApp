@@ -5,4 +5,4 @@ export async function getNews() {
     let result = await fetch(url).then(response => response.json());
     return result.articles;
 }
-getNews().then(console.log);
+// getNews().then(console.log);
