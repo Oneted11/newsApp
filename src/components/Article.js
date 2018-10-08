@@ -2,10 +2,11 @@ import React,{ Component } from 'react';
 import { View, Linking, TouchableNativeFeedback } from 'react-native';
 import { Text, Button, Card, Divider } from 'react-native-elements';
 import moment from 'moment';
-import { italic } from 'ansi-colors';
+
 
 export default class Article extends Component {
     render() {
+        console.log(this.props);
         const {
             title,
             description,

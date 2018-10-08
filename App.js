@@ -28,6 +28,7 @@ handleRefresh() {
   );
 }
 render() {
+  console.log("app.js",this.props);
   return (
     <FlatList
       data={this.state.articles}
