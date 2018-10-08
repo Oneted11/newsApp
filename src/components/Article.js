@@ -38,7 +38,7 @@ export default class Article extends Component {
                     <View
                         style={{ flexDirection: 'row', justifyContent: 'space-between' }}
                     >
-                        <Text style={noteStyle}>{source.name.toUppercase()}
+                        <Text style={noteStyle}>{source.name.toUpperCase()}
                         </Text>
                         <Text style={noteStyle}>{time}</Text>
                     </View>
